@@ -40,6 +40,7 @@ void yellowLedControllerTask(void *pvParameters) {
   while (1) {
     digitalWrite(YELLOW, digitalRead(YELLOW) ^ 1);
     vTaskPrioritySet(red_Handle, 2);
+    delay(50);
   }
 }
 
