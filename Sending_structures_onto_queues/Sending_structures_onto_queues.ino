@@ -44,7 +44,7 @@ void vSenderTask(void *pvParameters) {
     }
   }
 }
-
+ 
 void vReceiverTask(void *pvParameters) {
   Data_t xReceivedStructure;
   BaseType_t xStatus;
